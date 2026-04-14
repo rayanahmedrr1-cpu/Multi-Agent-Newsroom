@@ -1,0 +1,17 @@
+# Python bytecode (the __pycache__ folders you saw)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files (if you use virtual environments)
+venv/
+.env
+
+# Local Logs and Results
+# We ignore these because they change every time someone runs the code locally
+logs/*.json
+evaluation_results.json
+
+# Operating System files
+.DS_Store
+Thumbs.db
