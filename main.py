@@ -1,5 +1,8 @@
-from orchestrator.orchestrator import run_pipeline
+from orchestrator.runner import run_pipeline
 
 if __name__ == "__main__":
-    result = run_pipeline("AI in healthcare", 42)
+    topic = "climate change"
+    seed = 42
+
+    result = run_pipeline(topic, seed)
     print(result)
